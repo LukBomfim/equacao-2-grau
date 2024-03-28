@@ -47,16 +47,41 @@ button{
     color: blue;
     font: normal 15pt Arial;
     border-radius: 10px;
-    border: solid 1px blue;
+    border: solid 1px;
     transition: 200ms;
 }
 #botaoCalcular:hover{
     background-color: blue;
     color: white;
     transition: 200ms;
+    border-color: blue;
 }
-#botao
+#botaoLimpar{
+    background-color: rgba(255, 255, 255, 0);
+    color: red;
+    font: normal 15pt Arial;
+    border-radius: 10px;
+    border: solid 1px;
+    transition: 200ms;
+}
+#botaoLimpar:hover{
+    background-color: red;
+    color: white;
+    border-color: red;
+    transition: 200ms;
+}
 
+#resultadoDelta{
+    color: blue;
+}
+
+
+#msgErro{
+    color: red;
+    line-height: 25px;
+    font: bold 17pt Arial;
+    font-style: oblique;
+}
 
 
 footer{
