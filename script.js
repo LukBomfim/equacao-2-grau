@@ -55,7 +55,7 @@ function calcular(){
             /
             <sub>${2*a}</sub> <br>
 
-            <div class="resuladoBhaskara">
+            <div class="resultadoBhaskara">
                 x' = ${Math.floor(((-b + Math.sqrt(delta)) / (2*a)) * 100) / 100}
             </div>
             
@@ -78,7 +78,7 @@ function calcular(){
             /
             <sub>${2*a}</sub> <br>
 
-            <div class="resuladoBhaskara">
+            <div class="resultadoBhaskara">
                 x" = ${Math.floor(((-b - Math.sqrt(delta)) / (2*a)) * 100) / 100}
             </div>
 
