@@ -1,0 +1,77 @@
+html{
+    height: 100%;
+    box-sizing: border-box;
+}
+body{
+    background: lightblue;
+    font: normal 16pt Arial;
+    text-align: center;
+}
+section{
+    background-color: rgba(255, 255, 255, 0.6);
+    text-align: center;
+    font: normal 17pt Arial;
+    padding: 20px;
+    width: 350px;
+    margin: auto;
+    border-radius: 35px;
+    line-height: 45px;
+}
+
+#tutorial{
+    font: normal 18px arial;
+    margin-bottom: 10px;
+}
+
+.number{
+    width: 50px;
+    font: normal 19pt Arial;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    border: solid 0px;
+    text-align: center;
+}
+
+/* Ocultar as setas don input*/
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+button{
+    margin-bottom: 50px;
+}
+#botaoCalcular{
+    background-color: rgba(255, 255, 255, 0);
+    color: blue;
+    font: normal 15pt Arial;
+    border-radius: 10px;
+    border: solid 1px blue;
+    transition: 200ms;
+}
+#botaoCalcular:hover{
+    background-color: blue;
+    color: white;
+    transition: 200ms;
+}
+#botao
+
+
+
+footer{
+    font: normal 15pt Arial;
+    line-height: 50px;
+}
+a{
+    color: black;
+    font-style: italic;
+    line-height: 50px;
+    text-decoration: none;
+    transition: 200ms;
+    
+}
+a:hover{
+    color: blue;
+    text-decoration: underline;
+}
