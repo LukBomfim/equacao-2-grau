@@ -9,6 +9,7 @@ section{
     font: normal 17pt Arial;
     padding: 20px;
     width: 80%;
+    max-width: 500px;
     margin: auto;
     border-radius: 35px;
     line-height: 45px;
@@ -20,12 +21,12 @@ section{
 }
 
 #equacao{
-    width: 300px;
+    min-width: 400px;
     margin: 0 auto;
 }
 
 .number{
-    width: 50px;
+    width: 60px;
     font: normal 16pt Arial;
     background-color: rgba(255, 255, 255, 0.9);
     border-radius: 10px;
