@@ -71,12 +71,28 @@ button{
     transition: 200ms;
 }
 
+/* Fórmulas */
+#formulaDelta, #formulaBhaskara{
+    color: white;
+    background-color: rgb(0, 22, 150);
+    border-radius: 40px;
+    width: 180px;
+    margin: 0 auto;
+}
+
+#respostaDelta, #respostaBhaskara{
+    text-align: left;
+}
+
 #resultadoDelta{
     color: blue;
 }
-
+.resultadoBhaskara{
+    color: blue;
+}
 
 #msgErro{
+    margin-top: 20px;
     color: red;
     line-height: 25px;
     font: bold 17pt Arial;
