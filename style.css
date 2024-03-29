@@ -20,12 +20,12 @@ section{
 }
 
 #equacao{
-    width: 90%;
+    width: 300px;
     margin: 0 auto;
 }
 
 .number{
-    width: 16%;
+    width: 50px;
     font: normal 16pt Arial;
     background-color: rgba(255, 255, 255, 0.9);
     border-radius: 10px;
