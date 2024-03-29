@@ -16,7 +16,7 @@ section{
 }
 
 #tutorial{
-    font: normal 18px arial;
+    font: normal 17px arial;
     margin-bottom: 10px;
 }
 
@@ -26,9 +26,9 @@ section{
 }
 
 .number{
-    width: 60px;
+    width: 50px;
     font: normal 16pt Arial;
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(255, 255, 255, 1);
     border-radius: 10px;
     border: solid 0px;
     text-align: center;
