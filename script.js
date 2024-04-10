@@ -16,6 +16,8 @@ function calcular(){
     var b = Number(btxt.value)
     var c = Number(ctxt.value)
     var delta = (b**2) - (4*a*c)
+    var x1 = Math.floor(((-b + Math.sqrt(delta)) / (2*a)) * 100) / 100
+    var x2 = Math.floor(((-b - Math.sqrt(delta)) / (2*a)) * 100) / 100
 
     // Cálculo de Delta Δ
     respostaDelta.innerHTML = 
@@ -56,7 +58,7 @@ function calcular(){
             <sub>${2*a}</sub> <br>
 
             <div class="resultadoBhaskara">
-                x' = ${Math.floor(((-b + Math.sqrt(delta)) / (2*a)) * 100) / 100}
+                x' = ${x1}
             </div>
             
             <br>
@@ -79,11 +81,15 @@ function calcular(){
             <sub>${2*a}</sub> <br>
 
             <div class="resultadoBhaskara">
-                x" = ${Math.floor(((-b - Math.sqrt(delta)) / (2*a)) * 100) / 100}
+                x" = ${x2}
             </div>
 
             <br>
         <div class="x">
+
+        <div id="resultado">
+            S = {${x1}, ${x2}}
+        </div>
         `
     }
 }
