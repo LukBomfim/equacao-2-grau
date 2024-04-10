@@ -1,15 +1,16 @@
 body{
     background: lightblue;
-    font: normal 16pt Arial;
+    font: normal 21px Arial;
     text-align: center;
 }
 section{
     background-color: rgba(255, 255, 255, 0.6);
     text-align: center;
-    font: normal 17pt Arial;
+    font: normal 22px Arial;
     padding: 20px;
     width: 80%;
     max-width: 500px;
+    min-width: 300px;
     margin: auto;
     border-radius: 35px;
     line-height: 45px;
@@ -61,7 +62,7 @@ button{
 #botaoLimpar{
     background-color: rgba(255, 255, 255, 0);
     color: red;
-    font: normal 15pt Arial;
+    font: normal 20px Arial;
     border-radius: 10px;
     border: solid 1px;
     transition: 200ms;
@@ -97,13 +98,17 @@ button{
     margin-top: 20px;
     color: red;
     line-height: 25px;
-    font: bold 17pt Arial;
+    font: bold 22px Arial;
     font-style: oblique;
 }
 
+#resultado{
+    color: darkblue;
+    text-decoration: underline;
+}
 
 footer{
-    font: normal 15pt Arial;
+    font: normal 20px Arial;
     line-height: 50px;
 }
 a{
